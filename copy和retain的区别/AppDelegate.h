@@ -13,5 +13,16 @@
 @property (strong, nonatomic) UIWindow *window;
 
 
+
+
+@property (nonatomic,retain)NSString *retainString;
+
+@property (nonatomic,copy)NSString *String;
+
+@property (nonatomic,retain)NSMutableString *rmString;
+
+@property (nonatomic,copy)NSMutableString *rcString;
+
+
 @end
 
